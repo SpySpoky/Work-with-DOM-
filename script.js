@@ -2115,3 +2115,27 @@
 //     showTabContent();
 // });
 
+
+// function createElement() {
+//     const div = document.createElement('div');
+//     div.id = 'test';
+//     //return div;
+//     document.body.append(div);
+// }
+
+//const testDiv = createElement();
+//createElement();
+
+//function deleteElement() {
+// const element = document.getElementById('test');
+// if (element) {
+//     element.remove();
+// }
+// else {
+//     console.log('Element not found');
+// }
+// document.body.removeChild(document.getElementById('test'));
+// testDiv.remove(); // remove testDiv
+//}
+
+//deleteElement();
