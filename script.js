@@ -2139,3 +2139,56 @@
 //}
 
 //deleteElement();
+
+// "use script"
+
+// const timeId = setTimeout(function (text) {
+//     console.log(text);
+// }, 2000, 'Hello');
+
+// const timeId = setTimeout(function() {
+//     console.log("Hello");
+// }, 2000);
+
+// const btn = document.querySelector('.btn');
+// let timerId;
+// let i = 0;
+
+// btn.addEventListener('click', () => {
+//     // const timeId = setTimeout(logger, 2000);
+//     timerId = setInterval(logger, 2000); // each 2 sec
+// });
+
+// clearInterval(timerId); // clear timer
+
+// function logger() {
+//     if (i === 3) {
+//         clearInterval(timerId);
+//     }
+//     console.log('text');
+//     i++;
+// }
+
+// const id = setTimeout(function log() {// recursion
+//     console.log('Hello');
+//     id = setTimeout(log, 500);
+// }, 500);
+
+// function myAnimation() {
+//     const elem = document.querySelector('.box');
+//     let pos = 0;
+
+//     const id = setInterval(frame, 10);
+
+//     function frame() {
+//         if (pos == 300) {
+//             clearInterval(id);
+//         } else {
+//             pos++;
+//             elem.style.top = pos + "px";
+//             elem.style.left = pos + "px";
+//         }
+//     }
+// }
+
+// btn.addEventListener('click', myAnimation);
