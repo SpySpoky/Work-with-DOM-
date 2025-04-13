@@ -2266,7 +2266,7 @@
 //const now = new Date(0);// 1970-01-01T00:00:00.000Z
 //const now = new Date(-99999);// // 1969-12-31T23:59:59.999Z
 
-const now = new Date();
+// const now = new Date();
 
 //console.log(now.getFullYear()); // get year
 //console.log(now.getMonth()); // get month from 0 to 11 out put 3 for now April
