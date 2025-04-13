@@ -2300,11 +2300,11 @@ const now = new Date();
 // const deadLine = '2025-05-11';
 
 // function getTimeRemaining(endTime) {
-//     const t = Date.parse(endTime) - Date.parse(new Date());
-//     const days = Math.floor(t / (1000 * 60 * 60 * 24));
-//     const hours = Math.floor((t / (1000 * 60 * 60) % 24));
-//     const minutes = Math.floor((t / 1000 / 60) % 60);
-//     const sec = Math.floor((t / 1000) % 60);
+// const t = Date.parse(endTime) - Date.parse(new Date());
+// const days = Math.floor(t / (1000 * 60 * 60 * 24));
+// const hours = Math.floor((t / (1000 * 60 * 60) % 24));
+// const minutes = Math.floor((t / 1000 / 60) % 60);
+// const sec = Math.floor((t / 1000) % 60);
 
 //     return {
 //         'total': t,
