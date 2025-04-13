@@ -2258,3 +2258,38 @@
 // messages.pop(); // remove last element from array
 // messages.unshift(); // remove first element from array and add new one
 
+
+//const now = new Date();// current date and time
+
+// const now = new Date('2025-04-13');// // create date with string
+// const now = new Date(2025, 4, 1, 20);// // create date with numbers
+//const now = new Date(0);// 1970-01-01T00:00:00.000Z
+//const now = new Date(-99999);// // 1969-12-31T23:59:59.999Z
+
+const now = new Date();
+
+//console.log(now.getFullYear()); // get year
+//console.log(now.getMonth()); // get month from 0 to 11 out put 3 for now April
+//console.log(now.getDate()); // get date from 1 to 31 13 for now
+//console.log(now.getHours()); // get hours from 0 to 23 output 20 for now
+//console.log(now.getDay()); // get day from 0 to 6 output 0 for now Sunday
+
+//console.log(now.getUTCHours());// get hours from 0 to 23 in UTC output 17 for now
+
+// console.log(now.getTimezoneOffset()); // get timezone offset in minutes output -180 for now
+
+// console.log(now.getTime()); // get time in milliseconds output 1681392000000 for now
+
+// console.log(now.setHours(18));// set hours to 18 output 1681392000000 for now
+// console.log(now.setHours(18, 40)); // set hours to 18 and minutes to 40 output 1681392000000 for now
+// new Date.parse('2025-04-13');// // create date with string
+// let start = new Date();
+
+// for (let i = 0; i < 100000; i++) {
+//     let some = i ** 3;
+// }
+
+// let end = new Date(); // end time
+// alert(`Цикл отработал за ${end - start} миллисекунд`);
+
+// console.log(now);
