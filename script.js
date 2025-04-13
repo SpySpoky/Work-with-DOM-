@@ -2234,27 +2234,27 @@
 
 // WeakSet add, has, delete
 
-let messages = [
-    {
-        text: 'Hello', from: 'John'
-    },
-    {
-        text: 'World', from: 'Alex'
-    },
-    {
-        text: '...', from: 'M'
-    }
-];
+// let messages = [
+//     {
+//         text: 'Hello', from: 'John'
+//     },
+//     {
+//         text: 'World', from: 'Alex'
+//     },
+//     {
+//         text: '...', from: 'M'
+//     }
+// ];
 
-let readMessages = new WeakSet();
+// let readMessages = new WeakSet();
 
-readMessages.add(messages[0]);
-readMessages.add(messages[1]);
+// readMessages.add(messages[0]);
+// readMessages.add(messages[1]);
 
-console.log(readMessages.has(messages[0])); // true
-console.log(readMessages.has(messages[1])); // true
+// console.log(readMessages.has(messages[0])); // true
+// console.log(readMessages.has(messages[1])); // true
 
-messages.shift(); // remove first element from array
-messages.pop(); // remove last element from array
-messages.unshift(); // remove first element from array and add new one
+// messages.shift(); // remove first element from array
+// messages.pop(); // remove last element from array
+// messages.unshift(); // remove first element from array and add new one
 
