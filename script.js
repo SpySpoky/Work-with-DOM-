@@ -2192,3 +2192,69 @@
 // }
 
 // btn.addEventListener('click', myAnimation);
+
+// let user = { name: Ivan };
+
+//const arr = [user]; // we create after user is null
+//let map = new Map();
+// let map = new WeakMap(); // can not be used with primitive values like string, number, boolean, null, undefined
+// map.set(user, 'data');
+
+// user = null;
+
+// console.log(user); // null
+// console.log(user.name); // error
+// console.log(user?.name); // undefined
+//console.log(arr[0]); // { name: Ivan }
+
+//console.log(map.keys()); // [user]
+
+// console.log(map.has(user)); // false
+
+// let cache = new WeakMap();
+
+// function cacheUser(user) {
+//     if (!cache.has(user)) {
+//         cache.set(user, Date.now());
+//     }
+
+//     return cache.get(user);
+// }
+
+// let lena = { name: 'Elena' };
+// let alex = { name: 'Alex' };
+
+// cacheUser(lena);
+// cacheUser(alex);
+
+// lena = null;
+
+// console.log(cache.has(lena)); // false
+// console.log(cache.has(alex)); // true
+
+// WeakSet add, has, delete
+
+let messages = [
+    {
+        text: 'Hello', from: 'John'
+    },
+    {
+        text: 'World', from: 'Alex'
+    },
+    {
+        text: '...', from: 'M'
+    }
+];
+
+let readMessages = new WeakSet();
+
+readMessages.add(messages[0]);
+readMessages.add(messages[1]);
+
+console.log(readMessages.has(messages[0])); // true
+console.log(readMessages.has(messages[1])); // true
+
+messages.shift(); // remove first element from array
+messages.pop(); // remove last element from array
+messages.unshift(); // remove first element from array and add new one
+
