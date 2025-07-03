@@ -2344,3 +2344,26 @@
 // }
 
 // setClock('.timer', deadLine);
+// //////////////////////////////////////////////////////////////////////////
+
+// 'use sctrict'
+
+// function User(name, id) {
+//     this.name = name;
+//     this.id = id;
+//     this.human = true;
+//     this.hello = function () {
+//         console.log(`Hello ${this.name}`);
+//     };
+
+// }
+
+// User.prototype.exit = function (name) {
+//     console.log(`Exit ${this.name} successed`)
+// }
+
+// const ivan = new User('Artem', 24);
+// const alex = new User('Alex', 20);
+
+// ivan.hello();
+// ivan.exit();
